@@ -50,44 +50,27 @@
         </div>
     </nav>
 
-    <section id="home" class="relative h-screen flex items-center justify-center md:justify-start pt-20">
+    <section id="home" class="relative h-[40vh] md:h-[50vh] flex items-center justify-center mt-20">
         <img src="img/hero.jpg.png" alt="Hero Arka Plan" class="absolute inset-0 w-full h-full object-cover z-0" />
-        <div class="absolute inset-0 bg-slate-900/70 z-0"></div>
+        <div class="absolute inset-0 bg-slate-900/50 z-0"></div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full text-center md:text-left">
-            <span class="inline-block py-1 px-3 rounded-full bg-orange-600/30 text-orange-400 font-bold text-sm mb-4 border border-orange-500/30 backdrop-blur-sm">
-                Betrouwbare service en eerlijke prijzen
-            </span>
-            <h1 class="text-4xl md:text-6xl font-extrabold text-white/90 leading-tight mb-6 drop-shadow-lg">
-                Professionele reiniging en <br class="hidden md:block">
-                onderhoud voor <span class="text-orange-500/90">uw woning</span>.
+        <div class="relative z-10 w-full text-center">
+            <h1 class="text-5xl md:text-7xl font-bold text-white drop-shadow-lg tracking-tight">
+                Diensten
             </h1>
-            <p class="mt-4 max-w-2xl text-lg text-gray-200/80 mb-8 mx-auto md:mx-0 font-light drop-shadow-md">
-                Laat uw huis weer stralen – snel en netjes gereinigd door ervaren specialisten in uw regio.
-            </p>
-            <ul class="space-y-3 text-gray-200/90 mb-8 font-medium text-left max-w-md mx-auto md:mx-0 hidden sm:block drop-shadow-md">
-                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500 text-xl"></i> Verwijderen van mos, algen en vuil.</li>
-                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500 text-xl"></i> Dak- en gevelreiniging voorkomt schade.</li>
-                <li class="flex items-center gap-3"><i class="fa-solid fa-check text-orange-500 text-xl"></i> Gratis inspectie en vrijblijvende offerte.</li>
-            </ul>
+        </div>
+    </section>
 
-            <div class="flex items-center justify-center md:justify-start gap-3 mb-10 hidden sm:flex">
-                <div class="flex text-yellow-400 text-lg">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                <div class="text-white/90 font-medium text-sm drop-shadow-md">
-                    <span class="font-bold text-white">4.9/5</span> op basis van <a href="#reviews" class="font-bold text-white underline decoration-orange-500 hover:text-orange-400 transition">150+ reviews</a>
-                </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <a href="#contact" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition text-center">
-                    Gratis Offerte Aanvragen
-                </a>
-                <a href="#projecten" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 font-bold py-4 px-8 rounded-lg transition text-center">
-                    Bekijk Resultaten
-                </a>
-            </div>
+    <section class="py-12 bg-white text-center border-b border-gray-100">
+        <div class="max-w-3xl mx-auto px-4 flex flex-col space-y-6 md:space-y-8 text-lg md:text-xl font-medium text-slate-800">
+            <a href="#dakreiniging" class="hover:text-orange-600 transition">Dakreiniging</a>
+            <a href="#gevelreiniging" class="hover:text-orange-600 transition">Gevelreiniging & Zandstralen</a>
+            <a href="#voegwerk" class="hover:text-orange-600 transition">Voegwerk</a>
+            <a href="#hogedruk" class="hover:text-orange-600 transition">Hogedruk reinigen</a>
+            <a href="#graffiti" class="hover:text-orange-600 transition">Graffiti verwijderen</a>
+            <a href="#impregneren" class="hover:text-orange-600 transition">Impregneren</a>
+            <a href="#isolatie" class="hover:text-orange-600 transition">Isolatie</a>
+            <a href="#verf" class="hover:text-orange-600 transition">Verf verwijderen</a>
         </div>
     </section>
 
@@ -117,8 +100,8 @@
     <section id="diensten" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm">Wij verzorgen o.a.</span>
-                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl mt-2">Onze Specialisaties</h2>
+                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm">Onze expertises</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl mt-2">Diensten Details</h2>
                 <div class="w-24 h-1 bg-orange-600 mx-auto mt-4 mb-6"></div>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Wij zijn 100% gefocust op de buitenkant van uw woning. Kwaliteit gegarandeerd.
@@ -127,7 +110,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="dakreiniging" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/roof1.jpg" alt="Dakreiniging" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
@@ -147,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="gevelreiniging" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/brick-washing.jpeg" alt="Gevelreiniging" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
@@ -156,9 +139,9 @@
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
                         <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-orange-600 transition">Gevelreiniging</h3>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-orange-600 transition">Gevelreiniging & Zandstralen</h3>
                             <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                                Gevelreiniging laat uw woning er weer als nieuw uitzien. Met professionele apparatuur en speciale technieken verwijderen wij alle aanslag van uw bakstenen muren.
+                                Wij herstellen de uitstraling van uw gevel met diverse professionele technieken. Afhankelijk van de vervuiling passen wij milde reinigingsmethoden toe of maken we gebruik van vakkundig zandstralen. Hierbij spuiten we onder gepaste druk een mengsel van lucht en zand om hardnekkig vuil, roet of verfresten effectief te verwijderen, zonder de stenen te beschadigen. Uw gevel ziet er weer uit als nieuw!
                             </p>
                         </div>
                         <a href="#contact" class="inline-flex items-center font-bold text-orange-600 hover:text-orange-700 transition">
@@ -167,31 +150,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="img/zandstralen.png" alt="Zandstralen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">03</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-orange-600 transition">Zandstralen</h3>
-                            <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                                Zandstralen is de perfecte methode voor zwaar verontreinigde gevels. Onder gepaste druk spuiten we een mengsel van lucht en zand om hardnekkig vuil te verwijderen zonder schade.
-                            </p>
-                        </div>
-                        <a href="#contact" class="inline-flex items-center font-bold text-orange-600 hover:text-orange-700 transition">
-                            Offerte aanvragen <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="voegwerk" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/voegwerk.jpeg" alt="Voegwerk" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">04</span>
+                            <span class="text-orange-600 font-bold text-lg">03</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -207,11 +170,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="hogedruk" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/hogedruk.jpg" alt="Hogedruk reinigen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">05</span>
+                            <span class="text-orange-600 font-bold text-lg">04</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -227,11 +190,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="graffiti" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/graffiti.jpg" alt="Graffiti verwijderen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">06</span>
+                            <span class="text-orange-600 font-bold text-lg">05</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -247,11 +210,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="impregneren" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/impregneren.jpg" alt="Impregneren" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">07</span>
+                            <span class="text-orange-600 font-bold text-lg">06</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -267,11 +230,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="isolatie" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/isolatie.jpg" alt="Isolatie" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">08</span>
+                            <span class="text-orange-600 font-bold text-lg">07</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -287,11 +250,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col">
+                <div id="verf" class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 group flex flex-col scroll-mt-24">
                     <div class="h-64 overflow-hidden relative">
                         <img src="img/verf-verwijderen.webp" alt="Verf verwijderen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
-                            <span class="text-orange-600 font-bold text-lg">09</span>
+                            <span class="text-orange-600 font-bold text-lg">08</span>
                         </div>
                     </div>
                     <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
@@ -352,7 +315,7 @@
         </div>
     </section>
 
-<section id="projecten" class="py-20 bg-slate-900 text-white overflow-hidden relative">
+    <section id="projecten" class="py-20 bg-slate-900 text-white overflow-hidden relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <span class="text-orange-500 font-bold uppercase tracking-wider block mb-2">Onze Resultaten</span>
@@ -362,107 +325,107 @@
                 <p class="text-sm text-orange-400 mt-4 sm:hidden animate-pulse"><i class="fa-solid fa-arrows-left-right mr-2"></i>Swipe om meer te zien</p>
             </div>
 
- <style>
-    /* Tailwind scrollbar-hide eklentisi yoksa diye garanti çözüm */
-    .hide-scroll::-webkit-scrollbar {
-        display: none;
-    }
-    .hide-scroll {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-</style>
+            <style>
+                /* Tailwind scrollbar-hide eklentisi yoksa diye garanti çözüm */
+                .hide-scroll::-webkit-scrollbar {
+                    display: none;
+                }
+                .hide-scroll {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+            </style>
 
-<div class="relative group w-full">
-    <button id="prevBtn" class="hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-orange-600 hover:bg-orange-700 text-white rounded-full items-center justify-center shadow-2xl transition duration-300 focus:outline-none">
-        <i class="fa-solid fa-chevron-left text-xl"></i>
-    </button>
+            <div class="relative group w-full">
+                <button id="prevBtn" class="hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-orange-600 hover:bg-orange-700 text-white rounded-full items-center justify-center shadow-2xl transition duration-300 focus:outline-none">
+                    <i class="fa-solid fa-chevron-left text-xl"></i>
+                </button>
 
-    <div id="carousel-container" class="flex overflow-x-auto gap-4 md:gap-6 pb-8 px-4 md:px-0 scroll-smooth snap-x snap-mandatory items-stretch hide-scroll" style="-webkit-overflow-scrolling: touch;">
-        
-        <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
-            <div class="flex flex-col sm:flex-row w-full rounded-xl overflow-hidden bg-slate-900 h-[350px] md:h-[400px]">
-                <div class="w-full sm:w-1/2 h-1/2 sm:h-full relative border-b-2 sm:border-b-0 sm:border-r-2 border-orange-600/50">
-                    <img src="img/kirli-duvar.png" alt="Voor" class="w-full h-full object-cover grayscale-[20%]">
-                    <span class="absolute top-3 left-3 bg-slate-900/90 text-[10px] md:text-xs font-black px-2 py-1 rounded">VOOR</span>
+                <div id="carousel-container" class="flex overflow-x-auto gap-4 md:gap-6 pb-8 px-4 md:px-0 scroll-smooth snap-x snap-mandatory items-stretch hide-scroll" style="-webkit-overflow-scrolling: touch;">
+                    
+                    <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
+                        <div class="flex flex-col sm:flex-row w-full rounded-xl overflow-hidden bg-slate-900 h-[350px] md:h-[400px]">
+                            <div class="w-full sm:w-1/2 h-1/2 sm:h-full relative border-b-2 sm:border-b-0 sm:border-r-2 border-orange-600/50">
+                                <img src="img/kirli-duvar.png" alt="Voor" class="w-full h-full object-cover grayscale-[20%]">
+                                <span class="absolute top-3 left-3 bg-slate-900/90 text-[10px] md:text-xs font-black px-2 py-1 rounded">VOOR</span>
+                            </div>
+                            <div class="w-full sm:w-1/2 h-1/2 sm:h-full relative">
+                                <img src="img/temiz-duvar.jpeg" alt="Na" class="w-full h-full object-cover">
+                                <span class="absolute top-3 right-3 bg-orange-600 text-[10px] md:text-xs font-black px-2 py-1 rounded shadow-lg">NA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/roof.png" alt="Dakreiniging" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-orange-600 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">In uitvoering</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/gevel1.jpeg" alt="Project 1" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/gevel2.jpeg" alt="Project 2" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/gevel3.jpeg" alt="Project 3" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/gevel4.jpeg" alt="Project 4" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/roof1.webp" alt="Roof Project 1" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
+                        <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
+                        <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
+                            <img src="img/roof2.jpg" alt="Roof Project 2" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                            <span class="absolute bottom-4 left-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="w-full sm:w-1/2 h-1/2 sm:h-full relative">
-                    <img src="img/temiz-duvar.jpeg" alt="Na" class="w-full h-full object-cover">
-                    <span class="absolute top-3 right-3 bg-orange-600 text-[10px] md:text-xs font-black px-2 py-1 rounded shadow-lg">NA</span>
-                </div>
+
+                <button id="nextBtn" class="hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-orange-600 hover:bg-orange-700 text-white rounded-full items-center justify-center shadow-2xl transition duration-300 focus:outline-none">
+                    <i class="fa-solid fa-chevron-right text-xl"></i>
+                </button>
             </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/roof.png" alt="Dakreiniging" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 left-4 bg-orange-600 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">In uitvoering</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/gevel1.jpeg" alt="Project 1" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/gevel2.jpeg" alt="Project 2" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/gevel3.jpeg" alt="Project 3" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[450px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Gevelreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/gevel4.jpeg" alt="Project 4" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 right-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/roof1.webp" alt="Roof Project 1" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 left-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-        <div class="carousel-item w-[88vw] md:w-[750px] snap-center shrink-0 bg-slate-800/60 rounded-2xl p-3 md:p-5 border border-slate-700/50 shadow-2xl flex flex-col">
-            <h3 class="text-base md:text-xl font-extrabold mb-3 md:mb-4 text-center text-orange-400 uppercase tracking-widest italic">Dakreiniging</h3>
-            <div class="relative w-full rounded-xl overflow-hidden bg-slate-950 border-2 border-slate-700/50 h-[350px] md:h-[400px]">
-                <img src="img/roof2.jpg" alt="Roof Project 2" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <span class="absolute bottom-4 left-4 bg-green-600/90 text-white text-[10px] md:text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl uppercase tracking-wider">Voltooid</span>
-            </div>
-        </div>
-
-    </div>
-
-    <button id="nextBtn" class="hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-orange-600 hover:bg-orange-700 text-white rounded-full items-center justify-center shadow-2xl transition duration-300 focus:outline-none">
-        <i class="fa-solid fa-chevron-right text-xl"></i>
-    </button>
-</div>
     </section>
 
     <section class="py-20 bg-white">
@@ -586,8 +549,7 @@
                         <label class="block text-sm font-bold text-gray-700 mb-2">Dienst (Selecteer)</label>
                         <select name="Dienst" class="w-full px-4 py-3 bg-gray-50 rounded-lg border border-gray-200 focus:ring-2 focus:ring-orange-500 focus:bg-white outline-none transition">
                             <option value="Dakreiniging">Dakreiniging</option>
-                            <option value="Gevelreiniging">Gevelreiniging</option>
-                            <option value="Zandstralen">Zandstralen</option>
+                            <option value="Gevelreiniging">Gevelreiniging & Zandstralen</option>
                             <option value="Voegwerk">Voegwerk</option>
                             <option value="Hogedruk reinigen">Hogedruk reinigen</option>
                             <option value="Graffiti verwijderen">Graffiti verwijderen</option>
